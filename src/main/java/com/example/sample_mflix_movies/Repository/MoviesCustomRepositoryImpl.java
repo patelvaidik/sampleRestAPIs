@@ -188,7 +188,6 @@ public class MoviesCustomRepositoryImpl implements MoviesCustomRepository {
 }
 
 /**
- * Query Lists...
  * <p>
  * 1) remove all string type value of year field from database
  * =>   Criteria c= Criteria.where("year").type(JsonSchemaObject.Type.stringType());
